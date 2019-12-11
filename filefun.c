@@ -2,12 +2,11 @@ int factorial(int n1 ,int n2);
 int main()
 {
 	int n1,n2,p;
-	int fact;
 	printf("Enter value of num1 &num2");
 	scanf("%d%d",&n1,&n2);
 	
 	 p=factorial(n1,n2);
-	 printf("\n sum of fact is:%d",p)
+	 printf("\n sum of fact is:%d",p);
 }
 	int factorial(int n1,int n2)
 	{
